@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://wb21iwy6p26"]
 
 [ext_resource type="PackedScene" uid="uid://bjq3jsrxp6hqb" path="res://scenes/player.tscn" id="1_y8ncy"]
-[ext_resource type="Script" path="res://player.gd" id="2_f16ph"]
+[ext_resource type="Script" path="res://player.gd" id="2_f68uo"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_a0uyy"]
 
@@ -9,7 +9,7 @@
 
 [node name="Player" parent="." instance=ExtResource("1_y8ncy")]
 position = Vector2(35, 38)
-script = ExtResource("2_f16ph")
+script = ExtResource("2_f68uo")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(35, 31)
